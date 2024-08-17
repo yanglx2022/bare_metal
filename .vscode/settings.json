@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "mcimx6y2.h": "c",
+        "fsl_iomuxc.h": "c",
+        "core_ca7.h": "c",
+        "fsl_common.h": "c",
+        "string.h": "c",
+        "stdlib.h": "c",
+        "stdint.h": "c",
+        "stdbool.h": "c",
+        "fsl_device_registers.h": "c",
+        "interrupt.h": "c",
+        "system_mcimx6y2.h": "c",
+        "common.h": "c",
+        "fsl_uart.h": "c",
+        "fsl_debug_console.h": "c",
+        "clock_config.h": "c",
+        "mcimx6y2_features.h": "c",
+        "fsl_clock.h": "c",
+        "stdio.h": "c",
+        "uart.h": "c",
+        "led.h": "c"
+    }
+}

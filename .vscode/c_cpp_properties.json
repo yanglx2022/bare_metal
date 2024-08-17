@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "ARM-GCC",
+            "includePath": [
+                "${workspaceFolder}/drivers/CMSIS/Include",
+                "${workspaceFolder}/drivers/CORTEXA/Include",
+                "${workspaceFolder}/drivers/MCIMX6Y2",
+                "${workspaceFolder}/drivers/MCIMX6Y2/drivers",
+                "${workspaceFolder}/drivers/MCIMX6Y2/utilities",
+                "${workspaceFolder}/user/hardware"
+            ],
+            "defines": [
+                "__GNUC__",
+                "CPU_MCIMX6Y2CVM08"
+            ],
+            "compilerPath": "C:/gcc-linaro-6.5.0-2018.12-i686-mingw32_arm-eabi/bin/arm-eabi-gcc.exe",
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

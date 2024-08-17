@@ -1,0 +1,33 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",       // 编译
+            "type": "shell",
+            "command": "C:/mingw64/bin/mingw32-make",
+            "args": [
+                // "-j4"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译(make)"
+        },
+        {
+            "label": "Clean",       // 清理
+            "type": "shell",
+            "command": "C:/mingw64/bin/mingw32-make",
+            "args": [
+                "clean"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "清理(make clean)"
+        }
+    ]
+}
