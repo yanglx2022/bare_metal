@@ -14,7 +14,7 @@
                 "__GNUC__",
                 "CPU_MCIMX6Y2CVM08"
             ],
-            "compilerPath": "C:/gcc-linaro-6.5.0-2018.12-i686-mingw32_arm-eabi/bin/arm-eabi-gcc.exe",
+            "compilerPath": "C:/gcc-linaro-7.5.0-2019.12-i686-mingw32_arm-eabi/bin/arm-eabi-gcc.exe",
             "cStandard": "gnu99",
             "cppStandard": "gnu++11",
             "intelliSenseMode": "gcc-arm"
